@@ -33,9 +33,9 @@
 	    <tr>
 	    	<?php foreach ($patients as $patient){ ?>
 	    	<tr class="default"><td> <a href="patient/edit/<?=$patient['patient_id']?>"><?=$patient["patient_name"];?></a></td>
-	    		<td> <?=$patient["species_description"];?></td>
+	    		<td> <?=$patient["species_id"];?></td>
 	    		<td> <?=$patient["patient_status"];?></td>
-          <td> <?=$patient["client_firstname"];?><?=$patient["client_lastname"];?></td>
+          <td> <?=$patient["client_id"];?></td>
 	    		<td> <a href="patient/delete/<?=$patient['patient_id']?>">Delete</a></td>
 	    	</tr>
 	    	<?php } ?>
