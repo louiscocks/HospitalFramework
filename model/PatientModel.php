@@ -2,7 +2,7 @@
 
 function getAllPatients(){
 	$db = openDatabaseConnection();
-	$sql = "SELECT * FROM patients";
+	$sql = "SELECT * FROM patients INNER JOIN clients ON patients.client_id = clients.client_id JOIN species ON patients.species_id = species.species_id";
 	$query = $db->prepare($sql);
 	$query->execute();
 
@@ -14,7 +14,7 @@ function getAllPatients(){
 function getPatient($patient_id){
 
 	$db = openDatabaseConnection();
-	$sql = "SELECT * FROM patients WHERE patient_id = :patient_id";
+	$sql = "SELECT * FROM patients INNER JOIN clients ON patients.client_id = clients.client_id JOIN species ON patients.species_id = species.species_id WHERE patient_id = :patient_id";
 	$query = $db->prepare($sql);
 	$query->execute(array(":patient_id" => $patient_id));
 

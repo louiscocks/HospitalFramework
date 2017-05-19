@@ -25,20 +25,20 @@
 
 	  <div class="form-group">
 	    <label class="text-success">Full Name</label><br>
-		<input type="text" name="name" value="<?=$patients['name'];?>"><br>
+		<input type="text" name="name" value="<?=$patients['patient_name'];?>"><br>
 	  </div>
 
 	  <div class="form-group">
 		<label class="text-success">Species</label><br>
-		<input type="text" name="species" value="<?=$patients['species'];?>"><br>
+		<input type="text" name="species" value="<?=$patients['species_description'];?>"><br>
 	  </div>
 
 	  <div class="form-group">
 		<label class="text-success">Status</label><br>
-		<input type="text" name="status" value="<?=$patients['status'];?>"><br>
+		<input type="text" name="status" value="<?=$patients['patient_status'];?>"><br>
 	  </div>
 
-	    <input type="hidden" name="id" value="<?= $patients['id'];?>">	
+	    <input type="hidden" name="id" value="<?= $patients['patient_id'];?>">	
 		<button type="submit" class="btn btn-info">
 		<span class="glyphicon glyphicon-save"></span> Save
 		</button>

@@ -24,20 +24,20 @@
 
 	  <div class="form-group">
 	    <label class="text-success">Full Name</label><br>
-		<input type="text" name="name"><br>
+		<input type="text" name="patient_name"><br>
 	  </div>
 
 	  <div class="form-group">
 		<label class="text-success">Species</label><br>
-		<input type="text" name="species"><br>
+		<input type="text" name="species_description"><br>
 	  </div>
 
 	  <div class="form-group">
 		<label class="text-success">Status</label><br>
-		<input type="text" name="status"><br>
+		<input type="text" name="patient_status"><br>
 	  </div>
 
-	    <input type="hidden" name="id">	
+	    <input type="hidden" name="patient_id">	
 		<button type="submit" class="btn btn-info"> 
 		<span class="glyphicon glyphicon-user"></span> Add
 		</button>

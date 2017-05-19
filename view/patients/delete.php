@@ -24,17 +24,17 @@
 
 	  <div class="form-group">
 	    <label class="text-success">Full Name</label><br>
-		<input type="text" name="name" value="<?=$patients['id'];?>"><br>
+		<input type="text" name="patient_name" value="<?=$patients['patient_id'];?>"><br>
 	  </div>
 
 	  <div class="form-group">
 		<label class="text-success">Species</label><br>
-		<input type="text" name="species"><br>
+		<input type="text" name="species_description"><br>
 	  </div>
 
 	  <div class="form-group">
 		<label class="text-success">Status</label><br>
-		<input type="text" name="status"><br>
+		<input type="text" name="patient_status"><br>
 	  </div>
 
 	    <input type="hidden" name="id" value="<?= $patients['id'];?>">	
