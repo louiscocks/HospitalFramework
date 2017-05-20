@@ -24,7 +24,7 @@ function updateSave(){
 	    exit();
     }
 
-	header("Location:" . URL . "clients/index");
+	header("Location:" . URL . "client/index");
 }
 
 function create(){
@@ -40,7 +40,7 @@ function createSave(){
 	    exit();
     }
 
-    header("Location:" . URL . "clients/index");
+    header("Location:" . URL . "client/index");
 }
 
 function delete($client_id){
@@ -50,7 +50,7 @@ function delete($client_id){
 	    exit();
     }
 
-    header("Location:" . URL . "clients/index");
+    header("Location:" . URL . "client/index");
 
 
 }
