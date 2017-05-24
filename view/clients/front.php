@@ -4,7 +4,7 @@
     <div class="navbar-header navbar-right">
 
       <a class="navbar-brand" href="index">
-      <span class="glyphicon glyphicon-home"> FRAMEWORK</span>
+      <span class="glyphicon glyphicon-home"> HOME</span>
       </a>
 
     </div>
@@ -67,31 +67,31 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="/PROJECTS/framework/image/Amritdham-About-us.jpg" alt="hp1" width="100%" height="10%">
+        <img src="/PROJECTS/hospital-php-master/image/Amritdham-About-us.jpg" alt="hp1" width="100%" height="10%">
       </div>
 
       <div class="item">
-        <img src="/PROJECTS/framework/image/Automating-your-Hospital’s-HR.jpg" alt="hp2" width="100%" height="10%">
+        <img src="/PROJECTS/hospital-php-master/image/Automating-your-Hospital’s-HR.jpg" alt="hp2" width="100%" height="10%">
       </div>
     
       <div class="item">
-        <img src="/PROJECTS/framework/image/banner.jpg" alt="hp3" width="100%" height="10%">
+        <img src="/PROJECTS/hospital-php-master/image/banner.jpg" alt="hp3" width="100%" height="10%">
       </div>
 
       <div class="item">
-        <img src="/PROJECTS/framework/image/banner-of-hospital.jpg" alt="hp4" width="100%" height="10%">
+        <img src="/PROJECTS/hospital-php-master/image/banner-of-hospital.jpg" alt="hp4" width="100%" height="10%">
       </div>
 
       <div class="item">
-        <img src="/PROJECTS/framework/image/hospital.jpg" alt="hp5" width="100%" height="10%">
+        <img src="/PROJECTS/hospital-php-master/image/hospital.jpg" alt="hp5" width="100%" height="10%">
       </div>
     
       <div class="item">
-        <img src="/PROJECTS/framework/image/sani.jpg" alt="hp6" width="100%" height="10%">
+        <img src="/PROJECTS/hospital-php-master/image/sani.jpg" alt="hp6" width="100%" height="10%">
       </div>
 
       <div class="item">
-        <img src="/PROJECTS/framework/image/spe.jpg" alt="hp7" width="100%" height="10%">
+        <img src="/PROJECTS/hospital-php-master/image/spe.jpg" alt="hp7" width="100%" height="10%">
       </div>
 
     </div>

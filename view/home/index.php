@@ -1,6 +1,6 @@
 <div class="container">
- <h1>Welkom bij het PHP-FrameWork.</h1>
- <p>Je bent nu in home.</p>
+ <h1>HOME</h1>
+ <p>A framework made in PHP</p>
   
   <a href="patient">Hospital</a>
 
